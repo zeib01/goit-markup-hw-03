@@ -13,41 +13,38 @@
         rel="stylesheet">
 </head>
 
-<body class="container">
+<body>
     <!-- header hero-->
     <header class="header">
-        <div class="header-box">
+        <div class="div">
             <nav class="navigation">
                 <a class="logo_items" href="./index.html">Web
                     <span class="logo">Studio</span>
                 </a>
-                <ul class="navigation">
-                    <li class="navigation-item">
+                <ul class="nav-menu">
+                    <li class="nav-item">
                         <a class="navigation-style" href="./index.html">Studio</a>
                     </li>
-                    <li class="navigation-item">
+                    <li class="nav-item">
                         <a class="navigation-style" href="">Portfolio</a>
                     </li>
-                    <li class="navigation-item">
+                    <li class="nav-item">
                         <a class="navigation-style" href="">Contacts</a>
                     </li>
                 </ul>
             </nav>
-            <address class="phone">
-                <div class="address">
-                    <ul class="adress-link">
-                        <li class="adress-link-item>
-                            <a class=" phon-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                        </li>
-                        <li class="adress-link-item>
-                            <a class=" phon-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                        </li>
-                    </ul>
-                </div>
+            <address class="adress">
+                <ul class="adress-link">
+                    <li class="adress-link-item">
+                        <a class=" phon-link" href=mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="adress-link-item">
+                        <a class=" phon-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>
             </address>
         </div>
     </header>
-
     <main>
         <!-- section "wrapper-->
         <section class="wrapper">
@@ -60,30 +57,29 @@
         </section>
 
         <!-- section1 list-text-->
-        <section class="benefits">
+        <section class="benefits-noue">
             <div class="container">
-                <h2 hidden>Benefits</h2>
+                <h2 class="visually-hidden">Benefits</h2>
                 <ul class="benefits">
-                    <li class="item">
+                    <li class="benefits-item">
                         <h3 class="list-text-title">Strategy</h3>
                         <p class="list-text">Our goal is to identify the business
                             problem to walk away with the perfect and creative solution.
                         </p>
                     </li>
-                    <li class="item">
+                    <li class="benefits-item">
                         <h3 class="list-text-title">Punctuality</h3>
                         <p class="list-text">Bring the key message to the brand's audience for the best price within the
                             shortest possible time.
-                            time.
                         </p>
                     </li>
-                    <li class="item">
+                    <li class="benefits-item">
                         <h3 class="list-text-title">Diligence</h3>
                         <p class="list-text">Research and confirm brands that present the strongest digital growth
                             opportunities and minimize risk.
                         </p>
                     </li>
-                    <li class="item">
+                    <li class="benefits-item">
                         <h3 class="list-text-title">Technologies</h3>
                         <p class="list-text">Design practice focused on digital experiences. We bring forth a deep
                             passion for
@@ -97,68 +93,88 @@
         <section class="aside">
             <div class="container">
                 <h2 class="aside-title">Our Team</h2>
-                <ul>
+                <ul class="aside-list">
                     <li class="back-color">
                         <img src="./images/product-designer.jpg" alt="Product Designer Mark Guerrero" width="264"
                             height="260" />
-                        <h3 class="list-text-title">Mark Guerrero</h3>
-                        <p class="list-text">Product Designer</p>
+                        <div class="name">
+                            <h3 class="list-text-title">Mark Guerrero</h3>
+                            <p class="center">Product Designer</p>
+                        </div>
                     </li>
                     <li class="back-color">
                         <img src="./images/frontend-developer.jpg" alt="Frontend Developer Tom Ford" width="264"
                             height="260" />
-                        <h3 class="list-text-title">Tom Ford</h3>
-                        <p class="list-text">Frontend Developer</p>
+                        <div class="name">
+                            <h3 class="list-text-title">Tom Ford</h3>
+                            <p class="center">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="back-color">
                         <img src="./images/marketing.jpg" alt="Marketing Camila Garcia" width="264" height="260" />
-                        <h3 class="list-text-title">Camila Garcia</h3>
-                        <p class="list-text">Marketing</p>
+                        <div class="name">
+                            <h3 class="list-text-title">Camila Garcia</h3>
+                            <p class="center">Marketing</p>
+                        </div>
                     </li>
                     <li class="back-color">
                         <img src="./images/ui-designer.jpg" alt="UI Designer Daniel Wilson" width="264" height="260" />
-                        <h3 class="list-text-title">Daniel Wilson</h3>
-                        <p class="list-text">UI Designer</p>
+                        <div class="name">
+                            <h3 class="list-text-title">Daniel Wilson</h3>
+                            <p class="center">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
         </section>
 
         <!-- section3 Portfolio-->
-        <section>
+        <section class="portfolio">
             <div class="container">
                 <h2 class="aside-title">Our Portfolio</h2>
-                <ul>
-                    <li>
+                <ul class="portfolio-list">
+                    <li class="portfolio-item">
                         <img src="./images/our_portfolio_bankapp.jpg" alt="Banking App" width="360" height="300" />
-                        <h3 class="list-text-title">Banking App</h3>
-                        <p class="list-text">App</p>
+                        <div lass="portfolio-name">
+                            <h3 class="list-text-title">Banking App</h3>
+                            <p class="list-text">App</p>
+                        </div>
                     </li>
                     <li>
                         <img src="./images/our_portfolio_qrcode.jpg" alt="Cashless Payment" width="360" height="300" />
-                        <h3 class="list-text-title">Cashless Payment</h3>
-                        <p class="list-text">Marketing</p>
+                        <div class="portfolio-name">
+                            <h3 class="list-text-title">Cashless Payment</h3>
+                            <p class="list-text">Marketing</p>
+                        </div>
                     </li>
                     <li>
                         <img src="./images/our_portfolio_laptop.jpg" alt="Meditation App" width="360" height="300" />
-                        <h3 class="list-text-title">Meditation App</h3>
-                        <p class="list-text">App</p>
+                        <div class="portfolio-name">
+                            <h3 class="list-text-title">Meditation App</h3>
+                            <p class="list-text">App</p>
+                        </div>
                     </li>
                     <li>
                         <img src="./images/our_portfolio_car.jpg" alt="Taxi Service" width="360" height="300" />
-                        <h3 class="list-text-title">Taxi Service</h3>
-                        <p class="list-text">Marketing</p>
+                        <div class="portfolio-name">
+                            <h3 class="list-text-title">Taxi Service</h3>
+                            <p class="list-text">Marketing</p>
+                        </div>
                     </li>
                     <li>
                         <img src="./images/our_portfolio_phon.jpg" alt="Screen Illustrations" width="360"
                             height="300" />
-                        <h3 class="list-text-title">Screen Illustrations</h3>
-                        <p class="list-text">Design</p>
+                        <div class="portfolio-name">
+                            <h3 class="list-text-title">Screen Illustrations</h3>
+                            <p class="list-text">Design</p>
+                        </div>
                     </li>
                     <li>
                         <img src="./images/our_portfolio_girl.jpg" alt="Online Courses" width="360" height="300" />
-                        <h3 class="list-text-title">Online Courses</h3>
-                        <p class="list-text">Marketing</p>
+                        <div class="portfolio-name">
+                            <h3 class="list-text-title">Online Courses</h3>
+                            <p class="list-text">Marketing</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -174,7 +190,6 @@
             </p>
         </div>
     </footer>
-
 </body>
 
 </html>
