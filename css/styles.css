@@ -7,6 +7,11 @@ body {
     line-height: 1.5;
 }
 
+.div {
+    display: flex;
+    align-items: center;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -38,27 +43,21 @@ a {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 /*header hero*/
 .header {
-    display: flex;
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 
-.div {
-    display: flex;
-}
 
 .navigation {
     display: flex;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.32px;
-    gap: 40px;
     align-items: center;
-    padding-right: 332px;
+    margin-right: auto;
 }
 
 .logo_items {
@@ -110,13 +109,8 @@ a {
 }
 
 .adress {
-    display: flex;
-    gap: 40px;
-    width: 1158px;
     font-style: normal;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    align-items: center;
+
 }
 
 .adress-link {
@@ -154,8 +148,6 @@ a {
 .wrapper {
     padding: 188px 0;
     background-color: var(--NAVY-BLUE, #2E2F42);
-    width: 1440px;
-    height: 600px;
 }
 
 .wrapper_title {
@@ -223,11 +215,8 @@ benefits-item {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    text-align: center;
 }
 
-
-/* Header 3 */
 
 .list-text {
     font-size: 16px;
@@ -241,19 +230,19 @@ benefits-item {
 }
 
 .center {
-    font-size: 24px;
+    font-size: 16px;
     line-height: 1.5;
+    font-weight: 400;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+
 }
 
 /*section2*/
 .aside {
     padding: 120px 0;
     background-color: #F4F4FD;
-    width: 1440px;
-    height: 732px;
 }
 
 .back-color {
@@ -284,8 +273,7 @@ benefits-item {
 
 .portfolio {
     padding-top: 120px;
-    width: 1440px;
-    height: 300px;
+    padding-bottom: 120px;
 }
 
 .portfolio-list {
