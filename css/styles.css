@@ -133,6 +133,7 @@ a {
 .adress-link-item {
     color: #434455;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .phon-link:hover,
@@ -151,7 +152,7 @@ a {
 }
 
 .wrapper_title {
-    width: 496px;
+    max-width: 496px;
     color: var(--WHITE, #FFF);
     text-align: center;
     font-size: 56px;
