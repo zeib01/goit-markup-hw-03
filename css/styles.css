@@ -158,6 +158,8 @@ a {
     font-weight: 500;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .wrapper_button {
@@ -173,6 +175,7 @@ a {
     font-weight: 500;
     border: none;
     border-radius: 4px;
+    margin: 0 auto;
 }
 
 .wrapper_button:hover,
@@ -208,6 +211,28 @@ benefits-item {
     width: calc((100% - 72px) / 4);
 }
 
+.back-color-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    text-align: center;
+
+}
+
+.center {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+
+}
+
 .list-text-title {
     font-weight: 500;
     font-size: 20px;
@@ -227,16 +252,7 @@ benefits-item {
     width: 264px;
     flex-direction: column;
     gap: 8px;
-}
-
-.center {
-    font-size: 16px;
-    line-height: 1.5;
     font-weight: 400;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-align: center;
-
 }
 
 /*section2*/
